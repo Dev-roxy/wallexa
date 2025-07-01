@@ -1,0 +1,54 @@
+header.scrolled {
+  background-color: #fff;
+  --secondary-color: rgba(0, 0, 0, 0.07);
+  --placeholder-color: rgba(0, 0, 0, 0.5);
+}
+
+header.scrolled .slogan {
+  color: #000 !important;
+}
+
+.hidden{
+  display: none !important;
+}
+
+.visibleBar {
+  visibility: visible !important;
+  animation: showScale 300ms ease-in-out;
+}
+
+.selected{
+  color: rgb(3, 250, 3) !important;
+}
+
+.no-results{
+  font-size: 2rem;
+    width: 92vw;
+    font-weight: 700;
+    color: red;
+    text-wrap: nowrap;
+    margin: auto;
+    text-align: center;
+}
+
+@keyframes showScale {
+  from{
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeOut{
+  animation: fadeOut 300ms ease-in-out;
+}
+
+@keyframes fadeOut {
+  to{    
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+}
