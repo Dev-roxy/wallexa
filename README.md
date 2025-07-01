@@ -1,4 +1,4 @@
-#  WallExa — Wallpaper Explorer Application
+#  WallExa — Modern Wallpaper Discovery Platform
 
 ![Status](https://img.shields.io/badge/Project-Complete-green)  
 [![Live Demo](https://img.shields.io/badge/View-Live-green?logo=render&logoColor=white)](https://wallexa.onrender.com)  
